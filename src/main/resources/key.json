@@ -1,0 +1,12 @@
+{
+  "type": "record",
+  "doc": "This key for an election result - the region name.",
+  "name": "ElectionResult",
+  "fields": [
+    {
+      "name": "constituency_name",
+      "type": "string",
+      "doc": ""
+    }
+  ]
+}

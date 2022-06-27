@@ -1,0 +1,167 @@
+{
+  "type": "record",
+  "doc": "This event records an election result",
+  "name": "ElectionResult",
+  "fields": [
+    {
+      "name": "ons_id",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "ons_region_id",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "constituency_name",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "county_name",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "region_name",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "country_name",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "constituency_type",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "declaration_time",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "mp_firstname",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "mp_surname",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "mp_gender",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "result",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "first_party",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "second_party",
+      "type": "string",
+      "doc": ""
+    },
+    {
+      "name": "electorate",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "valid_votes",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "invalid_votes",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "majority",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "con",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "lab",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "ld",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "brexit",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "green",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "snp",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "pc",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "dup",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "sf",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "sdlp",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "uup",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "alliance",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "other",
+      "type": "int",
+      "doc": ""
+    },
+    {
+      "name": "other_winner",
+      "type": "int",
+      "doc": ""
+    }
+  ]
+}
